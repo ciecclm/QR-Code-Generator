@@ -161,9 +161,11 @@
 				TargetAttributes = {
 					C0BB55701AEE8C850084259C = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0830;
 					};
 					C0BB55851AEE8C850084259C = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0830;
 						TestTargetID = C0BB55701AEE8C850084259C;
 					};
 				};
@@ -343,6 +345,7 @@
 				INFOPLIST_FILE = QRCodeGen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -353,6 +356,7 @@
 				INFOPLIST_FILE = QRCodeGen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -371,6 +375,7 @@
 				INFOPLIST_FILE = QRCodeGenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeGen.app/QRCodeGen";
 			};
 			name = Debug;
@@ -386,6 +391,7 @@
 				INFOPLIST_FILE = QRCodeGenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeGen.app/QRCodeGen";
 			};
 			name = Release;
@@ -409,6 +415,7 @@
 				C0BB55921AEE8C850084259C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0BB55931AEE8C850084259C /* Build configuration list for PBXNativeTarget "QRCodeGenTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				C0BB55951AEE8C850084259C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
